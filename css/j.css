@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    color: #000;
+}
+
+body {
+    overflow: hidden;
+    font-size: 16px;
+}
+
+/* 首页 */
+#head {
+    background-color: #F7F7F7;
+    text-align: center;
+    height: .8rem
+        /* 40/50 */
+    ;
+    line-height: .8rem;
+}
+
+/* banner轮播图 */
+.swiper {
+    width: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px
+        /* 18/16 */
+    ;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* 底部导航栏 */
+#nav {
+    border: 1px solid #999;
+    background-color: #bbb;
+    width: 100%;
+    height: 1.2rem
+        /* 100/50 */
+    ;
+    box-sizing: border-box;
+    position: absolute;
+    bottom: 0px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-x {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.nav-x img {
+    width: .64rem
+        /* 32/50 */
+}
+
+/* swiper按钮列表 */
+/* .btn {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    height: 3.7rem;
+    justify-content: space-around;
+}
+
+.btn_y {
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.btn_x {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.btn_x img {
+    width: 1rem;
+}
+
+.btn_x a {
+    font-size: .24rem;
+    text-align: center;
+    margin-top: .2rem;
+}
+
+.swiper-pagination2 {
+    text-align: center;
+}
+
+.sw2 {
+    overflow: hidden;
+} */
+
+/* js自定义的按钮列表2 */
+#btns {
+    width: 500vw;
+    display: flex;
+    height: 3.4rem
+        /* 170/50 */
+    ;
+    transform: translateX(0px);
+}
+.btn {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.btn_row {
+    display: flex;
+    width: 100vw;
+    justify-content: space-around;
+}
+
+.btn_box {
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+
+.btn_box img {
+    width: 1rem
+        /* 50/50 */
+    ;
+}
+.btn_box a {
+    font-size: .24rem /* 12/50 */;
+    color: #8C8C8C;
+}
+.btn2{
+    background-color: #FDFDCD;
+}
+.btn3{
+    background-color: #cdfde6;
+}
