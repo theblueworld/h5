@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Document</title>
+    <link rel="stylesheet" href="swiper8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="font/font_nav/iconfont.css">
+</head>
+
+<body>
+    <!--title-->
+    <header id="head">
+        首页
+    </header>
+    <!-- 轮播图 -->
+    <div class="swiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="img/index_img/9.gif" alt=""></div>
+            <div class="swiper-slide"><img src="img/index_img/9.gif" alt=""></div>
+            <div class="swiper-slide"><img src="img/index_img/9.gif" alt=""></div>
+            <div class="swiper-slide"><img src="img/index_img/9.gif" alt=""></div>
+        </div>
+        <div class="swiper-pagination"></div>
+    </div>
+    <!-- swiper按钮列表 -->
+    <!-- <div class="sw2">
+        <div class="swiper-wrapper">
+            <div data-hash="slide2" class="swiper-slide btn">
+                <div class="btn_y">
+                    <div class="btn_x">
+                        <img class="btn_img" src="img/1.jpg" alt="">
+                        <a href="#">好吃的</a>
+                    </div>
+                    <div class="btn_x">
+                        <img class="btn_img" src="img/2.jpg" alt="">
+                        <a href="#">看看</a>
+                    </div>
+                    <div class="btn_x">
+                        <img class="btn_img" src="img/3.jpg" alt="">
+                        <a href="#">名品折扣</a>
+                    </div>
+                    <div class="btn_x">
+                        <img class="btn_img" src="img/4.jpg" alt="">
+                        <a href="#">淘淘</a>
+                    </div>
+                    <div class="btn_x">
+                        <img class="btn_img" src="img/5.jpg" alt="">
+                        <a href="#">助力享...</a>
+                    </div>
+                </div>
+                <div class="btn_y">
+                    <div class="btn_x">
+                        <img class="btn_img" src="img/1.jpg" alt="">
+                        <a href="#">爱逛街</a>
+                    </div>
+                    <div class="btn_x">
+                        <img class="btn_img" src="img/2.jpg" alt="">
+                        <a href="#">9块9特卖</a>
+                    </div>
+                    <div class="btn_x">
+                        <img class="btn_img" src="img/3.jpg" alt="">
+                        <a href="#">哈哈</a>
+                    </div>
+                    <div class="btn_x">
+                        <img class="btn_img" src="img/4.jpg" alt="">
+                        <a href="#">美食汇</a>
+                    </div>
+                    <div class="btn_x">
+                        <img class="btn_img" src="img/5.jpg" alt="">
+                        <a href="#">好友红包</a>
+                    </div>
+                </div>
+            </div>
+
+            <div data-hash="slide2" class="swiper-slide btn">
+                <div class="btn_y">
+                    <div class="btn_x">
+                        <img class="btn_img" src="img/1.jpg" alt="">
+                        <a href="#">好吃的</a>
+                    </div>
+                    <div class="btn_x">
+                        <img class="btn_img" src="img/2.jpg" alt="">
+                        <a href="#">看看</a>
+                    </div>
+                    <div class="btn_x">
+                        <img class="btn_img" src="img/3.jpg" alt="">
+                        <a href="#">名品折扣</a>
+                    </div>
+                    <div class="btn_x">
+                        <img class="btn_img" src="img/4.jpg" alt="">
+                        <a href="#">淘淘</a>
+                    </div>
+                    <div class="btn_x">
+                        <img class="btn_img" src="img/5.jpg" alt="">
+                        <a href="#">助力享...</a>
+                    </div>
+                </div>
+                <div class="btn_y">
+                    <div class="btn_x">
+                        <img class="btn_img" src="img/1.jpg" alt="">
+                        <a href="#">爱逛街</a>
+                    </div>
+                    <div class="btn_x">
+                        <img class="btn_img" src="img/2.jpg" alt="">
+                        <a href="#">9块9特卖</a>
+                    </div>
+                    <div class="btn_x">
+                        <img class="btn_img" src="img/3.jpg" alt="">
+                        <a href="#">哈哈</a>
+                    </div>
+                    <div class="btn_x">
+                        <img class="btn_img" src="img/4.jpg" alt="">
+                        <a href="#">美食汇</a>
+                    </div>
+                    <div class="btn_x">
+                        <img class="btn_img" src="img/5.jpg" alt="">
+                        <a href="#">好友红包</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="swiper-pagination2"></div>
+    </div> -->
+    <!-- js自定义按钮列表 -->
+    <div id="btns">
+        <!-- 第一页 -->
+        <div class="btn">
+            <!-- 第一行 -->
+            <div class="btn_row">
+                <!-- 每一个 -->
+                <div class="btn_box">
+                    <img src="img/index_img/1.jpg" alt="">
+                    <a href="#">好吃的</a>
+                </div>
+                <div class="btn_box">
+                    <img src="img/index_img/2.jpg" alt="">
+                    <a href="#">看看</a>
+                </div>
+                <div class="btn_box">
+                    <img src="img/index_img/3.jpg" alt="">
+                    <a href="#">名牌折扣</a>
+                </div>
+                <div class="btn_box">
+                    <img src="img/index_img/4.jpg" alt="">
+                    <a href="#">淘淘</a>
+                </div>
+                <div class="btn_box">
+                    <img src="img/index_img/5.jpg" alt="">
+                    <a href="#">助力享...</a>
+                </div>
+            </div>
+            <!-- 第二行 -->
+            <div class="btn_row">
+                <div class="btn_box">
+                    <img src="img/index_img/1.jpg" alt="">
+                    <a href="#">爱逛街</a>
+                </div>
+                <div class="btn_box">
+                    <img src="img/index_img/2.jpg" alt="">
+                    <a href="#">9块9特卖</a>
+                </div>
+                <div class="btn_box">
+                    <img src="img/index_img/3.jpg" alt="">
+                    <a href="#">哈哈</a>
+                </div>
+                <div class="btn_box">
+                    <img src="img/index_img/4.jpg" alt="">
+                    <a href="#">美食汇</a>
+                </div>
+                <div class="btn_box">
+                    <img src="img/index_img/5.jpg" alt="">
+                    <a href="#">好友红包</a>
+                </div>
+            </div>
+        </div>
+        <!-- 第二页 -->
+        <div class="btn btn2">
+            <!-- 第一行 -->
+            <div class="btn_row">
+                <!-- 每一个 -->
+                <div class="btn_box">
+                    <img src="img/index_img/1.jpg" alt="">
+                    <a href="#">好吃的</a>
+                </div>
+                <div class="btn_box">
+                    <img src="img/index_img/2.jpg" alt="">
+                    <a href="#">看看</a>
+                </div>
+                <div class="btn_box">
+                    <img src="img/index_img/3.jpg" alt="">
+                    <a href="#">名牌折扣</a>
+                </div>
+                <div class="btn_box">
+                    <img src="img/index_img/4.jpg" alt="">
+                    <a href="#">淘淘</a>
+                </div>
+                <div class="btn_box">
+                    <img src="img/index_img/5.jpg" alt="">
+                    <a href="#">助力享...</a>
+                </div>
+            </div>
+            <!-- 第二行 -->
+            <div class="btn_row">
+                <div class="btn_box">
+                    <img src="img/index_img/1.jpg" alt="">
+                    <a href="#">爱逛街</a>
+                </div>
+                <div class="btn_box">
+                    <img src="img/index_img/2.jpg" alt="">
+                    <a href="#">9块9特卖</a>
+                </div>
+                <div class="btn_box">
+                    <img src="img/index_img/3.jpg" alt="">
+                    <a href="#">哈哈</a>
+                </div>
+                <div class="btn_box">
+                    <img src="img/index_img/4.jpg" alt="">
+                    <a href="#">美食汇</a>
+                </div>
+                <div class="btn_box">
+                    <img src="img/index_img/5.jpg" alt="">
+                    <a href="#">好友红包</a>
+                </div>
+            </div>
+        </div>
+        <!-- 第三页 -->
+        <div class="btn btn3">
+            <!-- 第一行 -->
+            <div class="btn_row">
+                <!-- 每一个 -->
+                <div class="btn_box">
+                    <img src="img/index_img/1.jpg" alt="">
+                    <a href="#">好吃的</a>
+                </div>
+                <div class="btn_box">
+                    <img src="img/index_img/2.jpg" alt="">
+                    <a href="#">看看</a>
+                </div>
+                <div class="btn_box">
+                    <img src="img/index_img/3.jpg" alt="">
+                    <a href="#">名牌折扣</a>
+                </div>
+                <div class="btn_box">
+                    <img src="img/index_img/4.jpg" alt="">
+                    <a href="#">淘淘</a>
+                </div>
+                <div class="btn_box">
+                    <img src="img/index_img/5.jpg" alt="">
+                    <a href="#">助力享...</a>
+                </div>
+            </div>
+            <!-- 第二行 -->
+            <div class="btn_row">
+                <div class="btn_box">
+                    <img src="img/index_img/1.jpg" alt="">
+                    <a href="#">爱逛街</a>
+                </div>
+                <div class="btn_box">
+                    <img src="img/index_img/2.jpg" alt="">
+                    <a href="#">9块9特卖</a>
+                </div>
+                <div class="btn_box">
+                    <img src="img/index_img/3.jpg" alt="">
+                    <a href="#">哈哈</a>
+                </div>
+                <div class="btn_box">
+                    <img src="img/index_img/4.jpg" alt="">
+                    <a href="#">美食汇</a>
+                </div>
+                <div class="btn_box">
+                    <img src="img/index_img/5.jpg" alt="">
+                    <a href="#">好友红包</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="btn_diandian"> </div>
+
+    <!-- 首页数据内容 -->
+    <main>
+        <div class="main_data">
+            <img src="img/index_img/clj.png" alt="">
+            <div class="main_d_center">
+                <h3>首页数据内容</h3>
+                <p>4.7</p>
+                <p>起送￥20 配送￥3 人均￥22</p>
+                <p>满27减2；满39减3；满100减4</p>
+            </div>
+            <div class="main_d_right">
+                <p>30分钟 236米</p>
+                <img src="img/index_img/QR.png" alt="">
+            </div>
+        </div>
+        <div class="main_data">
+            <img src="img/index_img/clj.png" alt="">
+            <div class="main_d_center">
+                <h3>首页数据内容</h3>
+                <p>4.7</p>
+                <p>起送￥20 配送￥3 人均￥22</p>
+                <p>满27减2；满39减3；满100减4</p>
+            </div>
+            <div class="main_d_right">
+                <p>30分钟 236米</p>
+                <img src="img/index_img/QR.png" alt="">
+            </div>
+        </div>
+        <div class="main_data">
+            <img src="img/index_img/clj.png" alt="">
+            <div class="main_d_center">
+                <h3>首页数据内容</h3>
+                <p>4.7</p>
+                <p>起送￥20 配送￥3 人均￥22</p>
+                <p>满27减2；满39减3；满100减4</p>
+            </div>
+            <div class="main_d_right">
+                <p>30分钟 236米</p>
+                <img src="img/index_img/QR.png" alt="">
+            </div>
+        </div>
+        <div class="main_data">
+            <img src="img/index_img/clj.png" alt="">
+            <div class="main_d_center">
+                <h3>首页数据内容</h3>
+                <p>4.7</p>
+                <p>起送￥20 配送￥3 人均￥22</p>
+                <p>满27减2；满39减3；满100减4</p>
+            </div>
+            <div class="main_d_right">
+                <p>30分钟 236米</p>
+                <img src="img/index_img/QR.png" alt="">
+            </div>
+        </div>
+    </main>
+
+    <!-- 底部栏-字体图标 -->
+    <nav id="nav">
+        <a href="index.html" class="nav-x">
+            <span style="font-size: .52rem;" class="iconfont icon-index"></span>
+            <span>首页</span>
+        </a>
+        <a href="pages/order.html" class="nav-x">
+            <span style="font-size: .52rem;" class="iconfont icon-order"></span>
+            <span>订单</span>
+        </a>
+        <a href="#" class="nav-x">
+            <span style="font-size: .52rem;" class="iconfont icon-mine"></span>
+            <span>我的</span>
+        </a>
+    </nav>
+
+
+    <script src="js/rem.js"></script>
+    <script src="js/index_slide.js"></script>
+    <script src="swiper8/swiper-bundle.min.js"></script>
+    <script>
+        new Swiper(".swiper", {
+            spaceBetween: 30,
+            centeredSlides: true,
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+            },
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+
+        });
+        new Swiper(".sw2", {
+            spaceBetween: 30,
+            hashNavigation: {
+                watchState: true,
+            },
+            pagination: {
+                el: ".swiper-pagination2",
+                clickable: true,
+            },
+        });
+    </script>
+</body>
+
+</html>
