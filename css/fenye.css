@@ -1,0 +1,36 @@
+main{
+    height: calc(100vh - 0.8rem - 1.2rem);
+    display: flex;
+    flex-direction: row;
+}
+main aside{
+    width: 1.75rem;
+    height: calc(100vh - 0.8rem - 1.2rem);
+    overflow-y: scroll;
+    text-align: center;
+}
+main aside ul li{
+    height: .6rem /* 30/50 */;
+    line-height: .6rem /* 30/50 */;
+}
+
+main article{
+    height: calc(100vh - 0.8rem - 1.2rem);
+    width: calc(100vw - 1.75rem);
+    overflow-y: scroll;
+}
+main article ul{
+    height: 6rem /* 300/50 */;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+main article ul li{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+main article ul li img{
+    width: 1rem /* 50/50 */;
+
+}

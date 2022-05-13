@@ -1,38 +1,86 @@
-main{
-    height: calc(100vh - 0.8rem - 1.2rem);
-    display: flex;
-    flex-direction: row;
-}
-main aside{
-    width: 1.75rem;
-    height: calc(100vh - 0.8rem - 1.2rem);
-    overflow-y: scroll;
-    text-align: center;
-}
-main aside ul li{
-    height: .6rem /* 30/50 */;
-    line-height: .6rem /* 30/50 */;
+body {
+    background-color: #EEEEEE;
 }
 
-main article{
-    height: calc(100vh - 0.8rem - 1.2rem);
-    width: calc(100vw - 1.75rem);
-    
+/* nav */
+#order_nav {
+    display: flex;
+}
+
+#order_nav div {
+    background-color: #EFEFF4;
+    border-top: 1px solid #C3C2C8;
+    border-bottom: 1px solid #C3C2C8;
+    min-width: 2rem
+        /* 100/50 */
+    ;
+    height: .6rem
+        /* 30/50 */
+    ;
+    line-height: .6rem
+        /* 30/50 */
+    ;
+    text-align: center;
+}
+
+/* main */
+main {
+    height: calc(100vh - 0.8rem - 0.6rem - 1.2rem);
     overflow-y: scroll;
 }
-main article ul{
-    width: calc(100vw - 1.75rem);
-    height: 6rem /* 300/50 */;
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
+
+.order_main_data {
+    background-color: white;
+    height: 3.7rem
+        /* 185/50 */
+    ;
+    padding-left: .25rem;
+    margin-bottom: 10px;
+
 }
-main article ul li{
+
+.o_m_d_top {
     display: flex;
+    height: 135px;
+    align-items: center;
+    border-bottom: 1px solid gray;
+}
+
+.o_m_d_t_right {
+    display: flex;
+    width: 4rem
+        /* 200/50 */
+    ;
     flex-direction: column;
-    text-align: center;
+    align-items: center;
 }
-main article ul li img{
-    width: 1rem /* 50/50 */;
+.o_m_d_t_right h2{
+    font-family: "kaiti";
+}
 
+.o_m_d_bottom {
+    display: flex;
+    height: 1rem
+        /* 50/50 */
+    ;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.o_m_d_bottom p {
+    width: 3rem
+        /* 150/50 */
+    ;
+}
+
+.o_m_d_bottom span {
+    color: red;
+}
+
+.o_m_d_bottom button {
+    width: 100px;
+    height: 30px;
+    border: 1px solid aqua;
+    border-radius: 15px;
+    background-color: white;
 }
