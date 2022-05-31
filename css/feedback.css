@@ -1,0 +1,90 @@
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main article {
+    font-size: .28rem /* 14/50 */;
+    height: 3rem /* 150/50 */;
+    line-height: .5rem /* 25/50 */;
+    padding: .2rem /* 10/50 */;
+    width: 90vw;
+    border-radius: .1rem /* 5/50 */;
+    background-color: #F9EBEA;
+}
+
+main form {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.red {
+    color: red;
+}
+
+input {
+    border: none;
+    border-bottom: 1px solid rgb(172, 170, 170);
+    outline: medium;
+}
+
+.phone,
+.type {
+    height: 30px;
+}
+
+
+/* tea */
+.upload_box {
+    display: flex;
+    padding: 0.2rem;
+    height: 2.5rem;
+    box-sizing: border-box;
+}
+
+.upload_box .item {
+    position: relative;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.upload_box .item .icon-guanbi {
+    position: absolute;
+    width: 0.3rem;
+    height: 0.3rem;
+    right: 0.3rem;
+    top: -0.3rem;
+    color: red;
+}
+
+.upload_box .item .icon-tianjia {
+    font-size: 1.5rem;
+}
+
+.upload_box img {
+    max-width: 2rem;
+    max-height: 2rem;
+    min-height: 2rem;
+}
+
+#upload_btn input[type='file'] {
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 2rem;
+    height: 2rem;
+}

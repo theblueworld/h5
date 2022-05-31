@@ -1,0 +1,166 @@
+main {
+    background-color: #EFEFF4;
+    width: 100vw;
+    height: calc(100vh - 2rem);
+}
+
+/* 上 */
+#main_up {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+}
+
+#personal_user {
+    width: 95vw;
+    height: 3.3rem
+        /* 180/50 */
+    ;
+    background: linear-gradient(160deg, #FF9746, #FC6273);
+    border-radius: .1rem
+        /* 5/50 */
+    ;
+    display: flex;
+    align-items: center;
+    margin: .2rem
+        /* 10/50 */
+    ;
+}
+
+#personal_user div {
+    display: flex;
+    margin: 30px 0 0 20px;
+    width: 4.4rem
+        /* 220/50 */
+    ;
+    justify-content: space-around;
+    align-items: center;
+    height: 1.6rem
+        /* 80/50 */
+    ;
+}
+
+#personal_user img {
+    width: 1.6rem
+        /* 80/50 */
+    ;
+    height: 1.6rem
+        /* 80/50 */
+    ;
+    border-radius: .8rem
+        /* 40/50 */
+    ;
+}
+
+#personal_user div section {
+    display: flex;
+    height: 1.2rem
+        /* 60/50 */
+    ;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#personal_user h2 {
+    color: white;
+    font-size: .32rem
+        /* 16/50 */
+    ;
+}
+
+/* money */
+#money {
+    display: flex;
+    flex-direction: column;
+
+    width: 90vw;
+}
+
+#money h3 {
+    height: .8rem /* 40/50 */;
+}
+
+#money ul {
+    display: flex;
+    justify-content: space-between;
+    width: 85vw;
+    height: 40px;
+}
+
+#money li {
+    text-align: center;
+}
+
+#money li h4 {
+    color: red;
+    font-size: .26rem
+        /* 13/50 */
+    ;
+}
+
+#money li p {
+    color: #bbb;
+    font-size: .24rem
+        /* 12/50 */
+    ;
+}
+
+/* 下 */
+#main_down {
+    background-color: white;
+    margin-top: .3rem
+        /* 15/50 */
+    ;
+    height: 5.7rem
+        /* 285/50 */
+    ;
+}
+
+#main_down nav {
+    height: 1.6rem /* 80/50 */;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#main_down nav a {
+    width: 1.6rem /* 80/50 */;
+    height: .8rem /* 40/50 */;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#main_down nav a span {
+    font-size: .24rem
+        /* 12/50 */
+    ;
+    color: #bbb;
+}
+
+.color_1,
+.color_2,
+.color_3,
+.color_4 {
+    width: .4rem /* 20/50 */;
+    height: .4rem /* 20/50 */;
+    border-radius: .2rem /* 10/50 */;
+}
+
+.color_1 {
+    background-color: #FF9746;
+}
+
+.color_2 {
+    background-color: blueviolet;
+}
+
+.color_3 {
+    background-color: red;
+}
+
+.color_4 {
+    background-color: #CACACB;
+}

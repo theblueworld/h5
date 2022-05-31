@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>登录</title>
+    <link rel="stylesheet" href="../css/template.css">
+    <link rel="stylesheet" href="../font/font_nav/iconfont.css">
+    <link rel="stylesheet" href="../css/login.css">
+</head>
+
+<body>
+    <!--title-->
+    <header id="head">
+        登录
+    </header>
+    <!-- main -->
+    <main>
+        <div id="user_logo">
+            <img src="../img/login_img/miku.jpg" alt="">
+        </div>
+        <div>
+            <img src="" alt="">
+        </div>
+        <div id="username">
+            <input type="tel" name="phone" id="phone" placeholder="请输入手机号码" maxlength="11" value="19030102570"><span
+                id="sendBtn">发送验证码</span>
+        </div>
+        <div id="password">
+            <input type="tel" name="smscode" id="smscode" placeholder="请输入验证码" maxlength="6">
+        </div>
+        <a href="personal.html" id="loginBtn">登录</a>
+
+        <div id="xieyi">
+            <input type="radio" name="agree" id="agree"> 我已阅读并同意<a href="#">《XXXX用户协议》、《隐私政策》</a>
+        </div>
+        <script src="../js/login.js"></script>
+
+        <div id="red">
+            <div class="open">
+                <span id="closeRed">开</span>
+            </div>
+            <header>恭喜您获得天降红包</header>
+            <div class="item">
+                <div class="left">
+                    <img src="https://img0.baidu.com/it/u=1223122342,2332998935&fm=253&fmt=auto&app=120&f=JPEG?w=1024&h=702"
+                        alt="">
+                    <div class="info">
+                        <span>无门槛红包</span>
+                        <span>￥<span>100</span>.88无门槛红包</span>
+                    </div>
+                </div>
+                <div class="right">
+                    <span>今日到期</span>
+                    <span>去使用</span>
+                </div>
+            </div>
+            <div class="item">
+                <div class="left">
+                    <img src="https://img0.baidu.com/it/u=1223122342,2332998935&fm=253&fmt=auto&app=120&f=JPEG?w=1024&h=702"
+                        alt="">
+                    <div class="info">
+                        <span>无门槛红包</span>
+                        <span>￥<span>100</span>.88无门槛红包</span>
+                    </div>
+                </div>
+                <div class="right">
+                    <span>今日到期</span>
+                    <span>去使用</span>
+                </div>
+            </div>
+            <div class="item">
+                <div class="left">
+                    <img src="https://img0.baidu.com/it/u=1223122342,2332998935&fm=253&fmt=auto&app=120&f=JPEG?w=1024&h=702"
+                        alt="">
+                    <div class="info">
+                        <span>无门槛红包</span>
+                        <span>￥<span>100</span>.88无门槛红包</span>
+                    </div>
+                </div>
+                <div class="right">
+                    <span>今日到期</span>
+                    <span>去使用</span>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script>
+        var closeRed = document.getElementById("closeRed");
+        closeRed.addEventListener("click", function () {
+
+            //document.getElementById("red").style.display = 'none'
+            document.getElementById("red").remove();
+        })
+    </script>
+
+    <!-- 底部栏-字体图标 -->
+    <nav id="nav">
+        <a href="../index.html" class="nav-x">
+            <span style="font-size: .52rem;" class="iconfont icon-index"></span>
+            <span>首页</span>
+        </a>
+        <a href="order.html" class="nav-x">
+            <span style="font-size: .52rem;" class="iconfont icon-order"></span>
+            <span>订单</span>
+        </a>
+        <a href="login.html" class="nav-x">
+            <span style="font-size: .52rem;" class="iconfont icon-mine"></span>
+            <span>我的</span>
+        </a>
+    </nav>
+    <script src="../js/rem.js"></script>
+</body>
+
+</html>

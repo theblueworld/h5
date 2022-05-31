@@ -1,0 +1,241 @@
+@charset "utf-8";
+
+#loginBtn {
+	margin: .2rem
+		/* 10/50 */
+	;
+	height: .8rem
+		/* 40/50 */
+	;
+	line-height: .8rem
+		/* 40/50 */
+	;
+	text-align: center;
+	background-color: #e5e5e5;
+	border-radius: .2rem
+		/* 10/50 */
+	;
+}
+
+#loginBtn.active {
+	background-color: #ff6600;
+}
+
+/*子元素在父元素水平 垂直居中*/
+#red {
+
+	width: 80vw;
+	height: 70vh;
+	background-color: #f40;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	border-radius: 0.2rem;
+
+
+}
+
+#red .open {
+	height: 20vh;
+	border-bottom: 0.04rem solid yellowgreen;
+	border-bottom-left-radius: 50%;
+	border-bottom-right-radius: 50%;
+
+	position: relative;
+
+}
+
+@keyframes scaleXY {
+	from {
+		transform: scale(0.8);
+	}
+
+	to {
+		transform: scale(1.2);
+	}
+}
+
+#red .open span {
+	width: 20vw;
+	height: 20vw;
+	position: absolute;
+	background-color: goldenrod;
+	left: 50%;
+	margin-left: -10vw;
+	text-align: center;
+	line-height: 20vw;
+	bottom: -10vw;
+	border-radius: 50%;
+	animation: scaleXY 0.6s linear infinite;
+	color: #fff;
+}
+
+#red .open span::before {
+
+	content: '';
+	width: 18vw;
+	height: 18vw;
+	position: absolute;
+	left: 50%;
+	margin-left: -9vw;
+	bottom: 1vw;
+	border-radius: 50%;
+	border: 2px solid gold;
+	box-sizing: border-box;
+}
+
+#red header {
+	margin-top: 10vw;
+	text-align: center;
+	color: #fff;
+	font-weight: bold;
+}
+
+#red .item {
+	margin-top: 0.2rem;
+	height: 15vw;
+	padding: 0 0.2rem;
+	display: flex;
+	align-items: center;
+
+}
+
+#red .item .left,
+#red .item .right {
+	border-radius: 0.1rem;
+	background-color: #fff;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+#red .item .left img {
+	height: 12vw;
+	width: 12vw;
+	border-radius: 50%;
+	animation: rorate2 30s linear infinite;
+	;
+}
+
+@keyframes rorate2 {
+	from {
+		transform: rotate(0);
+	}
+
+	to {
+		transform: rotate(360deg);
+	}
+}
+
+#red .item .left .info {
+	font-size: 0.24rem;
+	color: red;
+}
+
+#red .item .left .info span span {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+#red .item .left .info,
+#red .item .right {
+	display: flex;
+	flex-direction: column;
+
+}
+
+#red .item .right {
+	font-size: 12px;
+	min-height: 15vw;
+}
+
+#red .item .left {
+	min-height: 15vw;
+	flex-grow: 3;
+	border-right: 0.02rem dashed #FF4400;
+}
+
+#red .item .right {
+	flex-grow: 1;
+}
+
+#red .item .right span:last-child {
+	background-color: #DAA520;
+	padding: 0.08rem 0.2rem;
+	border-radius: 0.4rem;
+	color: #fff;
+}
+
+/* main */
+main {
+	display: flex;
+	flex-direction: column;
+}
+
+#username,
+#password {
+	width: 100vw;
+	height: .8rem
+		/* 40/50 */
+	;
+	border: 1px solid #E5E5E5;
+	outline: none;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+#username #phone,
+#password #smscode {
+	height: .6rem
+		/* 30/50 */
+	;
+	border: none;
+	outline: none;
+	margin-left: .2rem
+		/* 10/50 */
+	;
+}
+
+#password #smscode {
+	width: 90vw;
+}
+
+#xieyi {
+	font-size: 12px;
+	text-align: center;
+}
+
+#xieyi #agree {}
+
+#xieyi a {
+	color: blue;
+	text-decoration: underline;
+}
+
+#user_logo {
+	height: 4rem
+		/* 200/50 */
+	;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#user_logo img {
+	width: 80px;
+	height: 80px;
+}
+
+#sendBtn {
+	display: inline-block;
+	background-color: #5F99F1;
+	/* #DEDEDE */
+	width: 130px;
+	height: 25px;
+	text-align: center;
+	border-radius: 5px;
+}
