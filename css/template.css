@@ -20,6 +20,12 @@ body {
     ;
     line-height: .8rem;
 }
+#head a{
+    position: absolute;
+    left: .2rem /* 10/50 */;
+    font-size: .4rem /* 20/50 */;
+    color: #3D7DFC;
+}
 
 /* 底部导航栏改-字体图标版 */
 #nav {
@@ -41,4 +47,8 @@ body {
     flex-direction: column;
     justify-content: center;
     text-align: center;
+}
+
+.active span,.active{
+    color: #D75D75;
 }

@@ -1,0 +1,42 @@
+body{
+    background-color: #EFEFF4;
+}
+main{
+    background-color: white;
+    border: 2px solid #dedcdc;
+}
+section{
+    width: 95vw;
+    margin-left: .2rem /* 10/50 */;
+    height: .8rem /* 30/50 */;
+    border-bottom: 1px solid #8f8f8f;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+input{
+    border: none;
+    outline: none;
+    text-align: right;
+}
+.file{
+    
+}
+
+select{
+    height: 30px;
+}
+.red{
+    color: red;
+}
+
+button{
+    background-color: red;
+    width: 100vw;
+    height: 40px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    border: none;
+    color: white;
+
+}

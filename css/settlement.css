@@ -1,0 +1,186 @@
+body {
+    background-color: #F2F2F2;
+}
+
+/* 定位 */
+.slt_position {
+    background-color: #666666;
+    width: 100vw;
+    height: 2.5rem
+        /* 150/50 */
+    ;
+    display: flex;
+    align-items: center;
+}
+
+.slt_dingwei {
+    width: 0.8rem
+        /* 50/50 */
+    ;
+    height: 0.8rem
+        /* 50/50 */
+    ;
+    margin: 0 .3rem
+        /* 15/50 */
+    ;
+}
+
+.slt_position p {
+    color: white;
+    line-height: .6rem
+        /* 30/50 */
+    ;
+}
+
+/* 地址 */
+.slt_address {
+    height: 2.5rem;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    margin: .3rem
+        /* 10/50 */
+        0;
+}
+
+.slt_address div {
+    width: 70vw;
+    border-right: .03rem
+        /* 1/50 */
+        solid rgb(191, 189, 189);
+}
+
+.slt_address::before {
+    content: "";
+    display: inline-block;
+    height: .4rem
+        /* 20/50 */
+    ;
+    width: .4rem
+        /* 20/50 */
+    ;
+    border: .03rem
+        /* 1.5/50 */
+        solid rgb(134, 210, 134);
+    border-radius: .2rem
+        /* 10/50 */
+    ;
+    margin: 0 .3rem
+        /* 15/50 */
+    ;
+}
+
+.slt_address img {
+    width: .5rem
+        /* 25/50 */
+    ;
+    height: .5rem
+        /* 25/50 */
+    ;
+    margin: .4rem
+        /* 20/50 */
+    ;
+}
+
+/* 简介 */
+.slt_introduction {
+    background-color: white;
+    height: 4.6rem
+        /* 230/50 */
+    ;
+}
+
+.slt_describe {
+    height: 2.4rem
+        /* 120/50 */
+    ;
+    display: flex;
+    align-items: center;
+    border-bottom: .02rem
+        /* 1/50 */
+        solid rgb(204, 200, 200);
+}
+
+.slt_describe img {
+    width: 2rem
+        /* 100/50 */
+    ;
+    height: 1.6rem
+        /* 80/50 */
+    ;
+    margin: .4rem
+        /* 20/50 */
+    ;
+}
+
+.slt_text {
+    height: 1.6rem
+        /* 80/50 */
+    ;
+}
+
+.slt_describe p {
+    font-size: .28rem
+        /* 14/50 */
+    ;
+    line-height: .5rem
+        /* 25/50 */
+    ;
+}
+
+.gray {
+    color: gray;
+}
+
+.slt_price {
+    height: .4rem
+        /* 20/50 */
+    ;
+    display: flex;
+    justify-content: space-between;
+    padding: .3rem
+        /* 15/50 */
+    ;
+    border-bottom: .02rem
+        /* 1/50 */
+        solid rgb(204, 200, 200);
+}
+
+.slt_price span {
+    color: gray;
+}
+
+.slt_price_right {
+    font-size: .2rem
+        /* 10/50 */
+    ;
+}
+
+/* 去付款 */
+#payment {
+    width: 100vw;
+    height: 90px;
+    position: absolute;
+    bottom: 0;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#payment p{
+    height: 35px;
+    line-height: 35px;
+}
+
+#payment button{
+    width: 90vw;
+    background-color: #F8645C;
+    height: 40px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+} 
+.slt_red{
+    color: red;
+    font-size: 20px;
+}

@@ -1,0 +1,163 @@
+body {
+    background-color: #EFEFF4;
+}
+
+p {
+    font-size: 12px;
+    font-weight: 600;
+}
+
+main {
+    width: 100vw;
+    height: calc(100vh - 2rem);
+    overflow-y: scroll;
+}
+
+/* 最外层站点 */
+.site {
+    width: 100vw;
+    margin-bottom: .2rem
+        /* 10/50 */
+    ;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+/* 站点名称 */
+.site .next {
+    display: flex;
+    align-items: center;
+    height: .6rem
+        /* 30/50 */
+    ;
+    width: 100vw;
+
+}
+
+.slt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    width: 60px;
+    height: 25px;
+    line-height: 30px;
+    background-color: red;
+    border: 1px solid rgb(82, 60, 60);
+    color: rgb(250, 244, 244);
+    border-radius: 5px;
+}
+
+.site_head {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: .02rem
+        /* 1/50 */
+        solid gainsboro;
+}
+
+/* .site .next::before,
+.goods::before {
+    margin: .1rem;
+    content: "";
+    display: inline-block;
+    height: .3rem;
+    width: .3rem;
+    border: .02rem solid;
+    border-radius: .2rem;
+} */
+/* #可选中的 按钮 */
+.select{
+    /* 选中变红 */
+    /* background-color: red; */
+    margin: .1rem;
+    content: "";
+    display: inline-block;
+    height: .2rem;
+    width: .2rem;
+    border: .05rem solid ;
+    border-radius: .2rem
+}
+.select_all{
+    margin: .1rem;
+    content: "";
+    display: inline-block;
+    height: .15rem;
+    width: .2rem;
+    border: .05rem solid ;
+    border-radius: .2rem
+}
+
+.site .next::after {
+    content: ">";
+    margin-left: .2rem
+        /* 10/50 */
+    ;
+}
+
+/* 商品 */
+.goods {
+    width: 100vw;
+    display: flex;
+    margin: .2rem 0
+        /* 10/50 */
+    ;
+    align-items: center;
+}
+
+/* 商品图 */
+.goods_img {
+    width: 1.8rem
+        /* 90/50 */
+    ;
+    height: 1.8rem
+        /* 90/50 */
+    ;
+}
+
+/* 商品介绍 */
+.goods_introduce {
+    width: 62vw;
+    margin-left: .2rem
+        /* 10/50 */
+    ;
+}
+
+.goods_introduce select {
+    width: 62vw;
+    margin: .1rem
+        /* 5/50 */
+        0;
+}
+
+/* 商品价格 */
+.goods_price {
+    display: flex;
+    justify-content: space-between;
+}
+
+.goods_button {
+    display: flex;
+}
+
+.goods_button button {
+    width: .6rem
+        /* 30/50 */
+    ;
+}
+
+/* 商品数量 */
+.goods_num {
+    border: .02rem
+        /* 1/50 */
+        solid;
+    width: .8rem
+        /* 40/50 */
+    ;
+    text-align: center;
+    margin: .02rem
+        /* 1/50 */
+    ;
+}

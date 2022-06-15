@@ -5,6 +5,9 @@
     text-decoration: none;
     color: #000;
 }
+#active span{
+    color: #D75D75;
+}
 
 body {
     overflow: hidden;
